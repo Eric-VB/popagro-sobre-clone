@@ -9,22 +9,19 @@
 <body>
     <div class="bg-[#02395c]">
         <header class="pl-1.5">
-            <div class="max-w-[1200px] mx-auto px-6">
-                <div class="flex items-center justify-center md:hidden py-3">
-                    <img src="./img/logo.svg" class="h-[26.15px]">
-                </div>
-                <div class="hidden items-center md:flex py-3">
+            <div class="max-w-300 mx-auto px-6">
+                <div class="flex items-center justify-center md:justify-start py-3">
                     <img src="./img/logo.svg" class="h-[26.15px]">
 
-                    <ul class="flex gap-10 text-white lg:flex-wrap ml-14">
+                    <ul class="hidden md:flex gap-10 text-white lg:flex-wrap ml-14">
                         <li>Categorias</li>
                         <li>Serviços</li>
                         <li>Lojas Exclusivas</li>
                         <li>Catálogo</li>
                         <li>Sobre nós</li>
                     </ul>
-                    <div>
-                        <ul class="flex justify-between text-white **:ml-auto ml">
+                    <div class="ml-auto hidden md:flex">
+                        <ul class="flex justify-between text-white">
                             <li class="pl-6">Quero anunciar</li>
                             <li class="pl-6">fazer login</li>
                         </ul>
@@ -33,15 +30,18 @@
             </div>
         </header>
     </div>
-    <section class="max-w-[1200px] mx-auto px-6">
-        <div class="flex">
-            <div class="font-blinker text-4xl">
-                A plataforma de <span class="text-green-600">marketplace</span> com sistemas de automação comercial para revendedores de máquinas pesadas.
+    <main class="pt-12 pb-32">
+        <section class="max-w-300 mx-auto px-6">
+            <div class="flex flex-col sm:flex-row">
+                <h1 class="font-blinker text-[#02395c] text-5xl font-semibold max-w-1/2">
+                    A plataforma de <span class="text-green-600">marketplace</span> com sistemas de automação comercial para revendedores de máquinas pesadas.
+                </h1>
+                <div class="max-w-1/2">
+                    <img src="img/popagro-marketplace.png" alt="" srcset="">
+                </div>
             </div>
-            <div>
-                <img src="img/popagro-marketplace.png" alt="" srcset="">
-            </div>
-        </div>
-    </section>
+        </section>
+
+    </main>
 </body>
 </html>
